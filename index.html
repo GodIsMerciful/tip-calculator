@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator-frame">
+        <div id="header-frame"><h3>Tip calculator</h3></div>
+        <form aciton="" method="post">
+            <p class="naslovs">How much was your bill?</p>
+            <table>
+                <tr>
+                    <td>&dollar;</td>
+                    <td><input type="number" id="racun" value="" min="0" placeholder="0"/></td>
+                </tr>
+            </table>
+            <p class="naslovss">Usluga</p>
+            <select name="baksis" id="baksis">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.3">30&#37; &#45; Outstanding</option>
+                <option value="0.2">20&#37; &#45; Good</option>
+                <option value="0.15">15&#37; &#45; It was OK</option>
+                <option value="0.1">10&#37; &#45; Bad</option>
+                <option value="0.05">5&#37; &#45; Terrible</option>
+            </select>
+            <p class="naslovss">How many people are sharing the bill?</p>
+            <input type="number" id="brLjudi" min="0"/>people
+            <input type="button" id="button" value="Posalji">
+        </form>
+        <div id="baksisDiv"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

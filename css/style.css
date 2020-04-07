@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(120deg, #3300ff, #e627d9, #3300ff);
+    background-size: 600% 600%;
+    -webkit-animation: myAnimation 50s ease infinite;
+    -moz-animation: myAnimation 50s ease infinite;
+    animation: myAnimation 50s ease infinite;
+}
+#calculator-frame
+{
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    background-color: rgba(204, 204, 204, 0.8);
+    position: relative;
+    transform: translateY(50%);
+    border-radius: 7px;
+    box-shadow: 0 0 10px #ffffff;
+}
+#header-frame
+{
+    color: #ffffff;
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.naslovs
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.naslovss
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+table
+{
+    margin: 0 auto;
+    padding-top: 15px;
+}
+table td
+{
+    padding: 0px;
+}
+#brLjudi
+{
+    font-size: 18px;
+    margin-top: 3%;
+    margin-right: 10px;
+    margin-left: 15%;
+}
+#button
+{
+    margin: auto;
+    padding: 7px 35px;
+    display: flex;
+    margin-top: 10%;
+    font-size: 30px;
+}
+#baksis
+{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10%;
+}
+#baksisDiv
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+}
